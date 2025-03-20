@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+/* General Container Styling */
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #f4f4f9;
+  border: 2px solid #ccc;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Image Container Styling */
+.imageContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imageContainer img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Column Widths */
+td:first-child, td:last-child {
+  width: 200px;
+}
+
+td:nth-child(2) {
+  width: 600px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* Image Styling in Table */
+td img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* General Typography */
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
